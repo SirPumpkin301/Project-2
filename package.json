@@ -1,0 +1,39 @@
+{
+  "name": "bookbringer",
+  "version": "1.0.0",
+  "description": "Project 2 Coding Bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team Book Bringer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ "
+  },
+  "homepage": "https://github.com/ ",
+  "dependencies": {
+    "aos": "^2.3.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.5.3",
+    "path": "^0.12.7",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^4.44.4"
+  }
+}
+
+
