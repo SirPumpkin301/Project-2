@@ -1,9 +1,6 @@
-
-
 h3.title {
-  color:#90C226;
- }
- 
+  color: #90c226;
+}
 
 .list-group-item {
   line-height: 2.5;
@@ -66,8 +63,8 @@ h3.title {
 }
 
 .btn-primary {
-  background-color: #90C226;
-  border-color: #90C226;
+  background-color: hsl(251, 85%, 42%);
+  border-color: #90c226;
   color: white;
   align-items: center;
   padding: 20px;
@@ -85,8 +82,8 @@ h3.title {
 }
 
 #text-button {
-  background-color: #90C226;
-  border-color: #90C226;
+  background-color: #90c226;
+  border-color: #90c226;
   color: white;
   align-items: center;
   padding: 10px;
@@ -99,7 +96,6 @@ h3.title {
   background-color: black;
   border-color: black;
   box-shadow: 0 0 0 0.2rem rgba(7, 7, 7, 0.5);
-
 }
 
 #close-modal {
@@ -174,16 +170,15 @@ h3.title {
 }
 
 .chosen .card-body {
-  transition: .5s ease;
-  background-color: #90C226 !important;
+  transition: 0.5s ease;
+  background-color: #90c226 !important;
   color: rgb(248, 249, 247) !important;
-
 }
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .ingred-card {
@@ -201,20 +196,18 @@ h3.title {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 2px solid #90C226;
-  border-radius: .25rem;
-
+  border: 2px solid #90c226;
+  border-radius: 0.25rem;
 }
 
 .img.card-img-top:hover {
   filter: brightness(110%);
   height: 100%;
   width: 100%;
-  opacity: .5;
-  transition: .5s ease;
-  background-color: #90C226;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  background-color: #90c226;
 }
-
 
 .recipe-card-image {
   width: 100%;
@@ -223,16 +216,13 @@ h3.title {
   /* Also can take single values to make all sides the same, or 2 values (vert/horz), or 3 values (top/horz/bottom). */
 }
 #recipes-Cards > .card {
-width:47%;
-justify-content: space-between;
-
+  width: 47%;
+  justify-content: space-between;
 }
 
 #printbut > .btn {
   padding: 10px;
   margin: 10px 10px 10px 0px;
-  height:50px;
+  height: 50px;
   vertical-align: middle;
 }
-
-
