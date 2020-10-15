@@ -63,8 +63,8 @@ h3.title {
 }
 
 .btn-primary {
-  background-color: hsl(251, 85%, 42%);
-  border-color: #90c226;
+  background-color: blue(251, 85%, 42%);
+  border-color: blue;
   color: white;
   align-items: center;
   padding: 20px;
