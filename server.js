@@ -33,6 +33,6 @@ db.sequelize.sync(syncOptions).then(function() {
     );
   });
 });
-console.log("hello David");
+console.log("We did it");
 
 module.exports = app;
