@@ -1,5 +1,6 @@
 "use strict";
 
+require("dotenv").config();
 var fs = require("fs");
 var path = require("path");
 var Sequelize = require("sequelize");
@@ -12,8 +13,8 @@ console.log(allConfig);
 var config = require(__dirname + "/../config/config.json")[env];
 var db = {};
 
-if (config.use_env_variable) {
-  var sequelize = new Sequelize(process.env[config.use_env_variable]);
+if (process.env.JAWSDB_URL) {
+  var sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
   var sequelize = new Sequelize(
     config.database,
