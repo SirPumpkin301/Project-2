@@ -1,60 +1,45 @@
 # Project 2
 
-## Application Requirements
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-- Must use a Node and Express server
+# RecipeMe
 
-- Must use Handlebars.js as the template engine
+Live application: [RecipeMe]
 
-- Must be backed by a MySQL database with a Sequelize ORM
+## Summary
 
-- Must utilize both GET and POST routes for retrieving and adding new data
+RecipeMe is the app that will help you turn fridge fossils into dinner GOLD. Just select the ingredients you have on hand and RecipeMe will dazzle you with all the recipes you never would have thought of on your own.
 
-- Must be deployed using Heroku (with data)
+## Target Audience
 
-- Must utilize at least one new library, package, or technology that we haven’t discussed
+RecipeMe is perfect for harried millennials, ultra-marathoning baby-boomers or agoraphobic gen-xers.
 
-- Must have a polished front end/UI
+We chose to develop RecipeMe for people who want to:
+-Cook but have no idea what to do with the odds and ends that populate their fridge
+-Tap into the eat-at-home movement
+-Get ahead of the RecipeMe Instapot stampede after Black Friday’s record pressure cooker sales.
 
-- Must have a folder structure that meets the MVC paradigm
+## Technologies Used
 
-- Must meet good quality coding standards (indentation, scoping, naming)
+The application was developed using client-side and server-side tools and technologies:
 
-- Must protect API keys in Node with environment variables
+- HTML
+- CSS
+- Javascript
+- jQuery
+- Unirest node module
+- APIs – Spoontacular, Twilio
+- Sequelize
+- Heroku
+- JawsDB
 
-## Presentation Requirements
+### API
 
-Use this [project presentation template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit?usp=sharing) to address the following:
+The primary API used in this project is Spoontacular, a RESTful API that leverages recipe, food, and nutrition API documentation. The Spoontacular Nutrition, Recipe, and Food API allows you to access over 365,000 recipes, 86,000 food.
 
-- Elevator pitch: a one minute description of your application
+### Database
 
-- Concept: What is your user story? What was your motivation for development?
-
-- Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
-
-- Demo: Show your stuff!
-
-- Directions for Future Development
-
-- Links to to the deployed application and the GitHub repository. Use this guide for [deploying your application to Heroku](../04-Supplemental/GitHubHerokuConnect.md) if you need a reminder on how to deploy!
-
-## Grading Metrics
-
-| Metric        | Weight |
-| ------------- | ------ |
-| Concept       | 10%    |
-| Design        | 20%    |
-| Functionality | 30%    |
-| Collaboration | 30%    |
-| Presentation  | 10%    |
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL of the deployed application
-
-- The URL of the GitHub repository
+The MySQL database was set up using two primary tables and a join table to connect recipes and ingredients in a many-to-many relationship.
 
 ## License
 
